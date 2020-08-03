@@ -1,0 +1,53 @@
+The path to the folder with dog pictures: uploaded_images/
+The CNN Architectural Model used: alexnet
+The dogs file name: dognames.txt
+
+The dictionary lenght or total images are: 4
+Below is the list of the first 10 (key, value):
+ 1 Russian_cat_01.jpg: ['russian cat']
+ 2 Dog_01.jpg: ['dog']
+ 3 Dog_02.jpg: ['dog']
+ 4 Coffee_mug_01.jpg: ['coffee mug']
+
+Printing out all matches (1) between classifier and image label:
+
+Printing out all non-matches (0) between classifier and image label:
+ 1 Russian_cat_01.jpg: image label = russian cat and classifier = persian cat, cat
+ 2 Dog_01.jpg: image label = dog and classifier = labrador retriever
+ 3 Dog_02.jpg: image label = dog and classifier = chihuahua
+ 4 Coffee_mug_01.jpg: image label = coffee mug and classifier = traffic light, traffic signal, stoplight
+
+Printing all matches (1) between classifier and image label:
+
+Printing all non-matches (0) between classifier and image label:
+IS NOT A DOG -  1 Russian_cat_01.jpg ['russian cat', 'persian cat, cat', 0, 0, 0]
+IS A DOG -  2 Dog_01.jpg ['dog', 'labrador retriever', 0, 1, 1]
+IS A DOG -  3 Dog_02.jpg ['dog', 'chihuahua', 0, 1, 1]
+IS NOT A DOG -  4 Coffee_mug_01.jpg ['coffee mug', 'traffic light, traffic signal, stoplight', 0, 0, 0]
+
+Comparing Counts - 
+Number of images in results = 4 and same as 4 in results_stats.
+Number of dogs images in results = 2 and same as 2 in results_stats.
+Number of not dogs images in results = 2 and same as 2 in results_stats.
+
+Comparing Percentages - 
+% correct dog images in results = 100.0 and same as 100.0 in results_stats.
+% correct not a dogs images in results = 100.0 and same as 100.0 in results_stats.
+% correct breed of dogs images in results = 0.0 and same as 0.0 in results_stats.
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+Prints Summary % Statistics on Model Run - 
+pct_match 0.0
+pct_correct_dogs 100.0
+pct_correct_breed 0.0
+pct_correct_notdogs 100.0
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:             labrador retriever
+Real:                        dog   Classifier:                      chihuahua
+
+** Total Elapsed Runtime: 0:0:0

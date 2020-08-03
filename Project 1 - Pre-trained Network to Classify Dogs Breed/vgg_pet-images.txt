@@ -1,0 +1,131 @@
+The path to the folder with dog pictures: pet_images/
+The CNN Architectural Model used: vgg
+The dogs file name: dognames.txt
+
+The dictionary lenght or total images are: 40
+Below is the list of the first 10 (key, value):
+ 1 German_shepherd_dog_04890.jpg: ['german shepherd dog']
+ 2 cat_07.jpg: ['cat']
+ 3 Dalmatian_04068.jpg: ['dalmatian']
+ 4 great_horned_owl_02.jpg: ['great horned owl']
+ 5 Dalmatian_04037.jpg: ['dalmatian']
+ 6 Boston_terrier_02285.jpg: ['boston terrier']
+ 7 Golden_retriever_05257.jpg: ['golden retriever']
+ 8 Boston_terrier_02259.jpg: ['boston terrier']
+ 9 Poodle_07956.jpg: ['poodle']
+10 cat_02.jpg: ['cat']
+
+Printing out all matches (1) between classifier and image label:
+ 1 German_shepherd_dog_04890.jpg: image label = german shepherd dog and classifier = german shepherd, german shepherd dog, german police dog, alsatian
+ 2 cat_07.jpg: image label = cat and classifier = egyptian cat, cat
+ 3 Dalmatian_04068.jpg: image label = dalmatian and classifier = dalmatian, coach dog, carriage dog
+ 4 Dalmatian_04037.jpg: image label = dalmatian and classifier = dalmatian, coach dog, carriage dog
+ 5 Boston_terrier_02285.jpg: image label = boston terrier and classifier = boston bull, boston terrier
+ 6 Golden_retriever_05257.jpg: image label = golden retriever and classifier = golden retriever
+ 7 Boston_terrier_02259.jpg: image label = boston terrier and classifier = boston bull, boston terrier
+ 8 Poodle_07956.jpg: image label = poodle and classifier = standard poodle, poodle
+ 9 cat_02.jpg: image label = cat and classifier = tabby, tabby cat, cat
+10 Basenji_00974.jpg: image label = basenji and classifier = basenji
+11 Beagle_01141.jpg: image label = beagle and classifier = beagle
+12 Great_dane_05320.jpg: image label = great dane and classifier = great dane
+13 Boxer_02426.jpg: image label = boxer and classifier = boxer
+14 Dalmatian_04017.jpg: image label = dalmatian and classifier = dalmatian, coach dog, carriage dog
+15 Saint_bernard_08036.jpg: image label = saint bernard and classifier = saint bernard, st bernard
+16 Golden_retriever_05223.jpg: image label = golden retriever and classifier = golden retriever
+17 Rabbit_002.jpg: image label = rabbit and classifier = wood rabbit, cottontail, cottontail rabbit, rabbit
+18 German_shorthaired_pointer_04986.jpg: image label = german shorthaired pointer and classifier = german shorthaired pointer
+19 polar_bear_04.jpg: image label = polar bear and classifier = ice bear, polar bear, ursus maritimus, thalarctos maritimus
+20 German_shepherd_dog_04931.jpg: image label = german shepherd dog and classifier = german shepherd, german shepherd dog, german police dog, alsatian
+21 Great_pyrenees_05435.jpg: image label = great pyrenees and classifier = great pyrenees
+22 Golden_retriever_05195.jpg: image label = golden retriever and classifier = golden retriever
+23 Beagle_01125.jpg: image label = beagle and classifier = beagle
+24 Saint_bernard_08010.jpg: image label = saint bernard and classifier = saint bernard, st bernard
+25 Miniature_schnauzer_06884.jpg: image label = miniature schnauzer and classifier = miniature schnauzer
+26 Poodle_07927.jpg: image label = poodle and classifier = standard poodle, poodle
+27 Basenji_00963.jpg: image label = basenji and classifier = basenji
+28 Cocker_spaniel_03750.jpg: image label = cocker spaniel and classifier = cocker spaniel, english cocker spaniel, cocker
+29 gecko_02.jpg: image label = gecko and classifier = banded gecko, gecko
+30 skunk_029.jpg: image label = skunk and classifier = skunk, polecat, wood pussy
+31 Collie_03797.jpg: image label = collie and classifier = collie
+32 Golden_retriever_05182.jpg: image label = golden retriever and classifier = golden retriever
+33 fox_squirrel_01.jpg: image label = fox squirrel and classifier = fox squirrel, eastern fox squirrel, sciurus niger
+34 Boston_terrier_02303.jpg: image label = boston terrier and classifier = boston bull, boston terrier
+35 Basset_hound_01034.jpg: image label = basset hound and classifier = basset, basset hound
+
+Printing out all non-matches (0) between classifier and image label:
+ 1 great_horned_owl_02.jpg: image label = great horned owl and classifier = ruffed grouse, partridge, bonasa umbellus
+ 2 gecko_80.jpg: image label = gecko and classifier = tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
+ 3 Great_pyrenees_05367.jpg: image label = great pyrenees and classifier = kuvasz
+ 4 cat_01.jpg: image label = cat and classifier = lynx
+ 5 Beagle_01170.jpg: image label = beagle and classifier = walker hound, walker foxhound
+
+Printing all matches (1) between classifier and image label:
+IS A DOG -  1 German_shepherd_dog_04890.jpg ['german shepherd dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1, 1, 1]
+IS NOT A DOG -  2 cat_07.jpg ['cat', 'egyptian cat, cat', 1, 0, 0]
+IS A DOG -  3 Dalmatian_04068.jpg ['dalmatian', 'dalmatian, coach dog, carriage dog', 1, 1, 1]
+IS A DOG -  5 Dalmatian_04037.jpg ['dalmatian', 'dalmatian, coach dog, carriage dog', 1, 1, 1]
+IS A DOG -  6 Boston_terrier_02285.jpg ['boston terrier', 'boston bull, boston terrier', 1, 1, 1]
+IS A DOG -  7 Golden_retriever_05257.jpg ['golden retriever', 'golden retriever', 1, 1, 1]
+IS A DOG -  8 Boston_terrier_02259.jpg ['boston terrier', 'boston bull, boston terrier', 1, 1, 1]
+IS A DOG -  9 Poodle_07956.jpg ['poodle', 'standard poodle, poodle', 1, 1, 1]
+IS NOT A DOG -  10 cat_02.jpg ['cat', 'tabby, tabby cat, cat', 1, 0, 0]
+IS A DOG -  11 Basenji_00974.jpg ['basenji', 'basenji', 1, 1, 1]
+IS A DOG -  13 Beagle_01141.jpg ['beagle', 'beagle', 1, 1, 1]
+IS A DOG -  14 Great_dane_05320.jpg ['great dane', 'great dane', 1, 1, 1]
+IS A DOG -  15 Boxer_02426.jpg ['boxer', 'boxer', 1, 1, 1]
+IS A DOG -  17 Dalmatian_04017.jpg ['dalmatian', 'dalmatian, coach dog, carriage dog', 1, 1, 1]
+IS A DOG -  18 Saint_bernard_08036.jpg ['saint bernard', 'saint bernard, st bernard', 1, 1, 1]
+IS A DOG -  19 Golden_retriever_05223.jpg ['golden retriever', 'golden retriever', 1, 1, 1]
+IS NOT A DOG -  20 Rabbit_002.jpg ['rabbit', 'wood rabbit, cottontail, cottontail rabbit, rabbit', 1, 0, 0]
+IS A DOG -  21 German_shorthaired_pointer_04986.jpg ['german shorthaired pointer', 'german shorthaired pointer', 1, 1, 1]
+IS NOT A DOG -  22 polar_bear_04.jpg ['polar bear', 'ice bear, polar bear, ursus maritimus, thalarctos maritimus', 1, 0, 0]
+IS A DOG -  23 German_shepherd_dog_04931.jpg ['german shepherd dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1, 1, 1]
+IS A DOG -  24 Great_pyrenees_05435.jpg ['great pyrenees', 'great pyrenees', 1, 1, 1]
+IS A DOG -  25 Golden_retriever_05195.jpg ['golden retriever', 'golden retriever', 1, 1, 1]
+IS A DOG -  26 Beagle_01125.jpg ['beagle', 'beagle', 1, 1, 1]
+IS A DOG -  27 Saint_bernard_08010.jpg ['saint bernard', 'saint bernard, st bernard', 1, 1, 1]
+IS A DOG -  28 Miniature_schnauzer_06884.jpg ['miniature schnauzer', 'miniature schnauzer', 1, 1, 1]
+IS A DOG -  29 Poodle_07927.jpg ['poodle', 'standard poodle, poodle', 1, 1, 1]
+IS A DOG -  31 Basenji_00963.jpg ['basenji', 'basenji', 1, 1, 1]
+IS A DOG -  32 Cocker_spaniel_03750.jpg ['cocker spaniel', 'cocker spaniel, english cocker spaniel, cocker', 1, 1, 1]
+IS NOT A DOG -  33 gecko_02.jpg ['gecko', 'banded gecko, gecko', 1, 0, 0]
+IS NOT A DOG -  34 skunk_029.jpg ['skunk', 'skunk, polecat, wood pussy', 1, 0, 0]
+IS A DOG -  35 Collie_03797.jpg ['collie', 'collie', 1, 1, 1]
+IS A DOG -  37 Golden_retriever_05182.jpg ['golden retriever', 'golden retriever', 1, 1, 1]
+IS NOT A DOG -  38 fox_squirrel_01.jpg ['fox squirrel', 'fox squirrel, eastern fox squirrel, sciurus niger', 1, 0, 0]
+IS A DOG -  39 Boston_terrier_02303.jpg ['boston terrier', 'boston bull, boston terrier', 1, 1, 1]
+IS A DOG -  40 Basset_hound_01034.jpg ['basset hound', 'basset, basset hound', 1, 1, 1]
+
+Printing all non-matches (0) between classifier and image label:
+IS NOT A DOG -  4 great_horned_owl_02.jpg ['great horned owl', 'ruffed grouse, partridge, bonasa umbellus', 0, 0, 0]
+IS NOT A DOG -  12 gecko_80.jpg ['gecko', 'tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui', 0, 0, 0]
+IS A DOG -  16 Great_pyrenees_05367.jpg ['great pyrenees', 'kuvasz', 0, 1, 1]
+IS NOT A DOG -  30 cat_01.jpg ['cat', 'lynx', 0, 0, 0]
+IS A DOG -  36 Beagle_01170.jpg ['beagle', 'walker hound, walker foxhound', 0, 1, 1]
+
+Comparing Counts - 
+Number of images in results = 40 and same as 40 in results_stats.
+Number of dogs images in results = 30 and same as 30 in results_stats.
+Number of not dogs images in results = 10 and same as 10 in results_stats.
+
+Comparing Percentages - 
+% correct dog images in results = 100.0 and same as 100.0 in results_stats.
+% correct not a dogs images in results = 100.0 and same as 100.0 in results_stats.
+% correct breed of dogs images in results = 93.33333333333333 and same as 93.33333333333333 in results_stats.
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+Prints Summary % Statistics on Model Run - 
+pct_match 87.5
+pct_correct_dogs 100.0
+pct_correct_breed 93.33333333333333
+pct_correct_notdogs 100.0
+
+INCORRECT Dog Breed Assignment:
+Real:             great pyrenees   Classifier:                         kuvasz
+Real:                     beagle   Classifier:  walker hound, walker foxhound
+
+** Total Elapsed Runtime: 0:0:32
